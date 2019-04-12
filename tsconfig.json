@@ -1,0 +1,38 @@
+{
+  "compileOnSave": true,
+
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": false,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es6", "dom", "esnext.asynciterable"],
+    "moduleResolution": "node",
+    "newLine": "LF",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "outDir": "dist",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "ES2017",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "module": "commonjs",
+    "noLib": false,
+    "declaration": true
+  },
+  "include": [
+    "src/**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/*.tsx",
+    "src/*.ts",
+    "src/*.ts"
+  ]
+}
